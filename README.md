@@ -1,35 +1,43 @@
 # ChemComparer
 
-Програма для перегляду та аналізу молекулярних структур.
+Program for viewing and analyzing molecular structures.
 
-## Функціонал
+## Functionality
 
-### Основні можливості
-- Візуалізація молекул у 2D та 3D форматах
-- Порівняння до 3 молекул одночасно
-- Аналіз хімічних властивостей
-- Імпорт/експорт у різних форматах
+### Main Features
+- Visualization of molecules in 2D and 3D formats
+- Comparison of up to 3 molecules simultaneously
+- Analysis of chemical properties
+- Import/export in various formats
 
-### Візуалізація
-- **2D режим**: структурні формули
-- **3D режим**: інтерактивні 3D моделі
-- **Стилі відображення**: stick, ball, wire
-- **Управління**: обертання, масштабування
+### Visualization
+- **2D mode**: structural formulas
+- **3D mode**: interactive 3D models
+- **Display styles**: stick, ball, wire
+- **Controls**: rotation, scaling
 
-### Аналіз властивостей
-- Молекулярна маса
-- LogP (коефіцієнт розподілу)
-- Кількість атомів та зв'язків
-- Ароматичні атоми та цикли
-- Донори/акцептори водню
-- Полярна площа поверхні
+### Property Analysis
+- Molecular weight
+- LogP (partition coefficient)
+- Number of atoms and bonds
+- Aromatic atoms and cycles
+- Hydrogen donors/acceptors
+- Polar surface area
 
-## Встановлення
-## Запуск з коду
-python main.py
+## Installation
 
-### Необхідні бібліотеки
+### Required Libraries
 ```bash
 pip install PyQt5 rdkit py3Dmol matplotlib pandas numpy
-### Запуск з коду
-python main.py
+
+### Important Notes
+
+-This program has been tested on macOS Tahoe 26.0.1.
+
+Some features do not work, including:
+
+-Saving tab positions on exit
+
+-Full save/load functionality
+
+-Display of hidden hydrogen atoms
