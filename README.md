@@ -4,6 +4,18 @@ Program for viewing and analyzing molecular structures.
 
 ## Functionality
 
+### Important Notes
+
+-This program has been tested on macOS Tahoe 26.0.1.
+
+Some features do not work, including:
+
+-Saving tab positions on exit
+
+-Full save/load functionality
+
+-Display of hidden hydrogen atoms
+
 ### Main Features
 - Visualization of molecules in 2D and 3D formats
 - Comparison of up to 3 molecules simultaneously
@@ -29,15 +41,3 @@ Program for viewing and analyzing molecular structures.
 ### Required Libraries
 ```bash
 pip install PyQt5 rdkit py3Dmol matplotlib pandas numpy
-
-### Important Notes
-
--This program has been tested on macOS Tahoe 26.0.1.
-
-Some features do not work, including:
-
--Saving tab positions on exit
-
--Full save/load functionality
-
--Display of hidden hydrogen atoms
